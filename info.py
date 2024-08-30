@@ -13,8 +13,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '210105'))
-API_HASH = environ.get('API_HASH', '031173130fa724e7ecded160647296')
+API_ID = int(environ.get('API_ID', '21017005'))
+API_HASH = environ.get('API_HASH', '031173130fa724e7ecded16064724d96')
 BOT_TOKEN = environ.get('BOT_TOKEN', "7046863207:AAEfH6Xvf1xgy4xKUhtV-Roa-ONDhz1aRfQ")
 
 # Bot settings
@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', 'https://telegra.ph/file/c038f0e7b4410e064ec60.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'moneycase.link'))
-STREAM_API = (environ.get('STREAM_API', '710b7ed8fdc5f89e9036000cc10121921e7732f1'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'publicearn.com'))
+STREAM_API = (environ.get('STREAM_API', '2c008db52de415a6970d0f7cf902897865796ce8'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/susanta_bhandarii/232'))
 
 # Admins, Channels & Users
